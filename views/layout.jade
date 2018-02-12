@@ -1,8 +1,8 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title='title'
+    link(rel='stylesheet',href='/stylesheets/styles.css')
   body
     .container
     img.logo(src='/images/nodebloglogo.png')
@@ -13,8 +13,7 @@ html
         li
           a(href='/posts/add') Add Post
         li
-          a(href='categories/add') Add Category
-
+          a(href='/categories/add') Add Category
     block content
     footer
-     p NodeBlog &copy; 2016
+      p Nodeblog &copy; 2016
